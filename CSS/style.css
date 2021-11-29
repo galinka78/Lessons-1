@@ -253,12 +253,11 @@ body {
     text-decoration: none;
 }
 .social-block {
-    min-width: 127px;
+    max-width: 127px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 

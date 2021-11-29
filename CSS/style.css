@@ -125,8 +125,12 @@ body {
         font-size: 24px;
         line-height: 28px;
         color: #302C34;
-               
+                  
     }
+    .section-rest {
+        padding-bottom: 91px;
+    }
+
     /*секция рестораны*/
     .section_header {
         display: flex;
@@ -223,5 +227,39 @@ body {
     left: -15px;
     margin-top: -3px;
 }
+/* footer секция*/
+.footer {
+    background-color: #fff;
+    padding: 60px 0;
+}
+.footer-block {
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.nav-link {
+    font-size: 18px;
+    line-height: 21px;
+    color: #595959;
+    text-decoration: none;
+}
+.social-block {
+    min-width: 127px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 
  
